@@ -204,7 +204,37 @@
 } 
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-marpit-fragments="5" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-marpit-fragments="3" lang="en-US">
+<h2 id="eigene-funktionale-interfaces">Eigene Funktionale Interfaces</h2>
+<ul>
+<li data-marpit-fragment="1">Verwendung der <code>@FunctionalInterface</code> Annotation</li>
+<li data-marpit-fragment="2">Implementierung über Interface</li>
+<li data-marpit-fragment="3">Beliebige Abstrakte Funktion(en) hinzufügen</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" lang="en-US">
+<h2 id="interface-erstellen">Interface Erstellen</h2>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-meta">@FunctionalInterface</span>
+<span class="hljs-keyword">interface</span> <span class="hljs-title class_">MultiplikatorInterface</span> {
+    <span class="hljs-type">int</span> <span class="hljs-title function_">calculate</span><span class="hljs-params">(<span class="hljs-type">int</span> a, <span class="hljs-type">int</span> b)</span>;
+}
+</code></pre>
+<h2 id="interface-verwenden">Interface verwenden</h2>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+    <span class="hljs-type">MultiplikatorInterface</span> <span class="hljs-variable">multiplikator</span> <span class="hljs-operator">=</span> (a, b) -&gt; a * b;
+    System.out.println(<span class="hljs-string">&quot;Ergebnis: &quot;</span> + multiplikator.calculate(<span class="hljs-number">10</span>, <span class="hljs-number">5</span>));
+}
+
+</code></pre>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-marpit-fragments="2" lang="en-US">
+<h2 id="vorteile-eigener-funktionaler-interfaces">Vorteile eigener Funktionaler Interfaces</h2>
+<ul>
+<li data-marpit-fragment="1">Bessere Lesbarkeit und Verstädnlichkeit</li>
+<li data-marpit-fragment="2">Individuelle Interface- und Methodennamen</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-marpit-fragments="5" lang="en-US">
 <h2 id="javas-stream-api">Javas Stream API</h2>
 <ul>
 <li data-marpit-fragment="1">Ermöglicht das Arbeiten mit Strömen</li>
@@ -214,7 +244,7 @@
 <li data-marpit-fragment="5">Verarbeitung bei Bedarf</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" lang="en-US">
 <h2 id="erzeugen-von-streams">Erzeugen von Streams</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
     <span class="hljs-comment">// Felder</span>
@@ -230,7 +260,7 @@
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-marpit-fragments="2" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-marpit-fragments="2" lang="en-US">
 <h2 id="spezifische-streams">Spezifische Streams</h2>
 <ul>
 <li data-marpit-fragment="1"><strong>IntStreams</strong>, <strong>DoubleStreams</strong> und <strong>LongStreams</strong></li>
@@ -243,7 +273,7 @@
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" lang="en-US">
 <h1 id="intermedi%C3%A4re-operationen-13">Intermediäre Operationen 1/3</h1>
 <table>
 <thead>
@@ -277,7 +307,7 @@
 </tbody>
 </table>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" lang="en-US">
 <h1 id="intermedi%C3%A4re-operationen-23">Intermediäre Operationen 2/3</h1>
 <table>
 <thead>
@@ -306,7 +336,7 @@
 </tbody>
 </table>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" lang="en-US">
 <h1 id="intermedi%C3%A4re-operationen-33">Intermediäre Operationen 3/3</h1>
 <table>
 <thead>
@@ -335,7 +365,7 @@
 </tbody>
 </table>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" lang="en-US">
 <h2 id="terminale-operationen-12">Terminale Operationen 1/2</h2>
 <table>
 <thead>
@@ -374,7 +404,7 @@
 </tbody>
 </table>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" lang="en-US">
 <h2 id="terminale-operationen-22">Terminale Operationen 2/2</h2>
 <table>
 <thead>
@@ -413,7 +443,7 @@
 </tbody>
 </table>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" lang="en-US">
 <h2 id="stream-beispiel">Stream Beispiel</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
 
@@ -435,7 +465,7 @@
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" lang="en-US">
 <h2 id="streams-ohne-bedarfsauswertung">Streams ohne Bedarfsauswertung</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-console">4: filter 1
 8: filter 1
@@ -451,7 +481,7 @@
 42: forEach
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="30" lang="en-US">
 <h2 id="streams-mit-bedarfsauswertung">Streams mit Bedarfsauswertung</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-console">4: filter 1
 4: filter 2
@@ -467,7 +497,7 @@
 42: forEach
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" data-marpit-fragments="3" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31" data-marpit-fragments="3" lang="en-US">
 <h2 id="unendliche-streams">Unendliche Streams</h2>
 <ul>
 <li data-marpit-fragment="1">Java ermöglicht das erstellen von unendlichen Strömen</li>
@@ -475,7 +505,7 @@
 <li data-marpit-fragment="3">Stream.generate()</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" lang="en-US">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" lang="en-US">
 <h2 id="unendliche-streams-beispiel">Unendliche Streams Beispiel</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
 
