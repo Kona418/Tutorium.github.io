@@ -10,6 +10,8 @@ layout: default
 * 21.01.2026
 * ...
 
+> [Skript]({% link Praesentations/Programmierung1/Skript1.html%})
+
 
 # 2. Termin
 * 04.02.2026
