@@ -8,7 +8,7 @@ layout: default
 
 # 1. Termin
 * 21.01.2026
-* ...
+* Intro, Git, Datentypen, Kontrollstrukturen, Methoden
 
 > [Skript]({% link Praesentations/Programmierung1/Skript1.html%})
 
