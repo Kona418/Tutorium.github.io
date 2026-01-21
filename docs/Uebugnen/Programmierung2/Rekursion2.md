@@ -1,6 +1,6 @@
 ---
 title: Rekursion 2
-parent: Übungen
+parent: Programmierung 2
 nav_order: 4
 layout: default
 ---

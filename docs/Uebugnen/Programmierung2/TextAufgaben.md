@@ -1,6 +1,6 @@
 ---
 title: Text Aufgaben
-parent: Übungen
+parent: Programmierung 2
 nav_order: 1
 layout: default
 ---

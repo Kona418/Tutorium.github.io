@@ -1,6 +1,6 @@
 ---
 title: File Operations
-parent: Übungen
+parent: Programmierung 2
 nav_order: 4
 layout: default
 ---
@@ -99,7 +99,7 @@ public class Person {
 }
 ```
 
-## NUmbers txt
+## Numbers txt
 ```markdown
 10.5
 23.7
