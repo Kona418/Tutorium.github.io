@@ -13,7 +13,7 @@ Um das Repository auf deinen Rechner zu kopieren, folge bitte diesen Schritten:
 1. Öffnet das Terminal an eurem gewünschtem Speicherort
 1. Klone das Repository auf deinen rechner mit foglendem Befehl:
 ```console
-git clone https://github.com/ZenKuJa/Programmierung2Tutorium.git
+git clone https://github.com/Kona418/Programmierung2Tutorium.git
 ```
 
 ## Navigieren der Branches
