@@ -15,8 +15,9 @@ layout: default
 
 # 2. Termin
 * 04.02.2026
-* ...
+* Listen, Hilfsklassen, Objektorientierung, Constructor, Access Modifier, Method Overloadung
 
+> [Skript]({% link Praesentations/Programmierung1/Skript2.html%})
 
 
 # 3. Termin
