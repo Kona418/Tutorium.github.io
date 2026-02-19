@@ -25,8 +25,11 @@ layout: default
 
 # 3. Termin
 * 12.02.2026
-* ...
+* LJava API, Final Modifier, Enumerations, Klassen-Diagramme, Vererbung, Protected, Abstract, Polymorphie, Interface, Komparator
 
+> [Skript]({% link Praesentations/Programmierung1/Skript3.html%})
+
+> [PDF]({% link Praesentations/Programmierung1/Skript3.pdf%})
 
 
 # 4. Termin
