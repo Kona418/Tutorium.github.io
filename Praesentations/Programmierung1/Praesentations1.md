@@ -33,9 +33,12 @@ layout: default
 
 
 # 4. Termin
+* Exceptions, Ressourcen, Wiederholung, Übung
 * 25.02.2026
-* ...
 
+> [Skript]({% link Praesentations/Programmierung1/Skript4.html%})
+
+> [PDF]({% link Praesentations/Programmierung1/Skript4.pdf%})
 
 
 # 5. Termin
