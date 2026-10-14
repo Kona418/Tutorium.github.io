@@ -190,7 +190,7 @@ class Universitaet {
 
 ## Git Branch
 ```console
-git checkout ssemester1/access-modifier
+git checkout semester1/access-modifier
 ```
 
 ## Lösung Access Modifier
